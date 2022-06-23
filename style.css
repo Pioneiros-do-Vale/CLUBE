@@ -174,7 +174,6 @@ nav .wrapper {
 nav .wrapper img {
   width: 7rem;
   height: 6.5rem;
-  position: relative;
 }
 
 nav.scroll {
@@ -185,14 +184,6 @@ nav button {
   background: none;
   border: none;
   cursor: pointer;
-}
-
-nav .open-menu {
-  z-index: 1;
-}
-
-nav .close-menu {
-  z-index: 2;
 }
 
 /*===== MENU-EXPANDED =================================*/
@@ -327,8 +318,8 @@ body.menu-expanded .social-links li:hover path[stroke*="#FFFAF1"] {
 
 #home::before {
   content: "";
-  width: 200%;
-  height: calc(106rem + var(--nav--heigth));
+  width: 100%;
+  height: calc(108rem + var(--nav--heigth));
   background-color: var(--brand-light);
   display: block;
 
@@ -339,11 +330,8 @@ body.menu-expanded .social-links li:hover path[stroke*="#FFFAF1"] {
 }
 
 #home div img:nth-child(1) {
-  content: "";
-  width: 200%;
+  width: 100%;
   height: calc(106rem + var(--nav--heigth));
-  display: block;
-
   position: absolute;
   top: 0;
   left: 0;

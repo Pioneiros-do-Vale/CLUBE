@@ -330,7 +330,7 @@ body.menu-expanded .social-links li:hover path[stroke*="#FFFAF1"] {
 }
 
 #home div img:nth-child(1) {
-  width: 100%;
+  width: 200%;
   height: calc(106rem + var(--nav--heigth));
   position: absolute;
   top: 0;
